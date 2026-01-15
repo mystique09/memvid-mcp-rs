@@ -25,8 +25,6 @@ Memvid is a memory layer for AI agents that stores knowledge as compressed "Smar
 ### From Cargo (Rust)
 
 ```bash
-cargo install memvid-mcp
-# or
 cargo install --git https://github.com/mystique09/memvid-mcp.git
 ```
 
