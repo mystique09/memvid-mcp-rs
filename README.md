@@ -1,6 +1,6 @@
 # Memvid MCP Server
 
-Model Context Protocol (MCP) server interface to [Memvid](https://github.com/memvid/memvid) - a video-frame memory system for AI agents.
+Unofficial Model Context Protocol (MCP) server interface to [Memvid](https://github.com/memvid/memvid) - a video-frame memory system for AI agents.
 
 ## What is Memvid?
 
@@ -26,12 +26,14 @@ Memvid is a memory layer for AI agents that stores knowledge as compressed "Smar
 
 ```bash
 cargo install memvid-mcp
+# or
+cargo install --git https://github.com/mystique09/memvid-mcp.git
 ```
 
 ### From Source
 
 ```bash
-git clone https://github.com/your-username/memvid-mcp.git
+git clone https://github.com/mystique09/memvid-mcp.git
 cd memvid-mcp
 cargo build --release
 # The binary will be at target/release/memvid-mcp.exe (Windows) or target/release/memvid-mcp (Linux/Mac)
