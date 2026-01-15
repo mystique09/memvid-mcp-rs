@@ -1,0 +1,19 @@
+/target
+Cargo.lock
+
+# Test files
+test_*.json
+continue_test.json
+
+# Memvid files
+*.mv2
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
